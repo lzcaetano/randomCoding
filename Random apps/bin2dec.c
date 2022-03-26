@@ -3,6 +3,8 @@
 #include <math.h>
 #include <string.h>
 
+/* Criado por lzCaetano */
+
 int decimalToBynary(int number);
 int binaryToDecimal(int number);
 int selection, num;
