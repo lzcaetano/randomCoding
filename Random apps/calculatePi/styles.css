@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #efe5fd;
+}
+
+h1 {
+    font-weight: 100;
+    font-family: 'Segoe UI';
+    margin: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 100;
+    font-family: "Segoe UI";
+    margin: 5px;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Segoe UI';
+    font-weight: 100;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: #ebf5da;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+}
+
+#calculate {
+    width: 70px;
+    height: 25px;
+    margin: 10px;
+    margin-bottom: 0px;
+    border-radius: 25px;
+    border: none;
+    font-weight: 400;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+    background-color: #f4fde5;
+}
+
+#calculate:hover {
+    animation: button 0.25s forwards;
+}
+
+@keyframes button {
+    0% {background-color: #f4fde5;}
+    100% {background-color: #b8ec4b;}
+}
+
+.textarea {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 25px;
+    width: 200px;
+    height: 25px;
+    resize: none;
+    background-color: #f4fde5;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin: 10px;
+}

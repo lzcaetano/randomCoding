@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<main>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Calcular PI a partir pontos</h1>
+        <div id="main" class="square">
+            <h2>Quantidade de pontos a serem gerados<br><h4>(Quanto mais pontos, maior será a precisão)</h4></h2>
+            <div id="topBox" class="square">
+                <textarea id="input" name="numberOfDots" class="textarea"></textarea>
+            </div>
+            <button id="calculate" onclick="calculatePI()">calculate</button>
+            <h2>Valor aproximado de PI</h2>
+            <div id="botBox" class="square">
+                <textarea id="output" name="piNumber" class="textarea"></textarea>
+            </div>
+        </div>
+        <script src="calculatePi.js"></script>
+    </body>
+</main>
